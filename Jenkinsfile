@@ -14,7 +14,7 @@ pipeline{
 		 	{
 				checkout([$class: 'GitSCM', branches: [[name: "master"]], 
                 doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [
-                [credentialsId: "DevopsComfama", url: "https://Comfama@dev.azure.com/Comfama/AutomatizacionQA/_git/AutomatizacionQA"]
+                [credentialsId: "slondonom", url: "https://github.com/slondonom/automationPratice"]
                 ]])
 			}
 		}

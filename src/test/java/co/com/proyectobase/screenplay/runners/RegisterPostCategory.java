@@ -12,6 +12,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		tags = "@tag2",
 		glue={"co.com.proyectobase.screenplay.stepdefinitions", "co.com.proyectobase.screenplay.util"},
 		snippets=SnippetType.CAMELCASE		)
-public class RegistroPaginaUTest {
+public class RegisterPostCategory {
 
 }
