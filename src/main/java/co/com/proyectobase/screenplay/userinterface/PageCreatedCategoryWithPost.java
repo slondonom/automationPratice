@@ -3,7 +3,7 @@ package co.com.proyectobase.screenplay.userinterface;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class PaginaDeRegistroDatosBasicos {
+public class PageCreatedCategoryWithPost {
 
     public static final Target BLOG = Target.the("").located(By.xpath("//a[text()='Blog']"));
     public static final Target BLOG_CATEGORY = Target.the("").located(By.xpath("//a[text()='Blog Categories']"));

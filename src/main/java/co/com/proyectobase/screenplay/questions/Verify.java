@@ -1,8 +1,6 @@
 package co.com.proyectobase.screenplay.questions;
 
-import co.com.proyectobase.screenplay.model.DataBase;
-import co.com.proyectobase.screenplay.model.DataBasePost;
-import co.com.proyectobase.screenplay.userinterface.PaginaUltimoPasoRegistro;
+import co.com.proyectobase.screenplay.userinterface.PageLastStepVerifyMessage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -24,7 +22,7 @@ public class Verify implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
 
-        String mensajeEsperado = Text.of(PaginaUltimoPasoRegistro.MENSAJE_ESPERADO).viewedBy(actor).asString();
+        String mensajeEsperado = Text.of(PageLastStepVerifyMessage.MESSAGEVERIFY).viewedBy(actor).asString();
         return datos.get(0).equals(mensajeEsperado);
     }
 }

@@ -4,10 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import org.openqa.selenium.By;
 
-import java.util.ArrayList;
 
-
-import static co.com.proyectobase.screenplay.userinterface.PaginaDeRegistroDatosBasicos.WRITE_TEXT;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 
 public class ChooseIframe implements Interaction {

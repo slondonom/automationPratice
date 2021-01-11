@@ -1,27 +1,14 @@
 package co.com.proyectobase.screenplay.tasks;
 
-import co.com.proyectobase.screenplay.model.DataBase;
-import static co.com.proyectobase.screenplay.userinterface.PaginaDeRegistroDatosBasicos.*;
+import static co.com.proyectobase.screenplay.userinterface.PageCreatedCategoryWithPost.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
-import static co.com.proyectobase.screenplay.userinterface.PaginaDeRegistroDireccion.*;
 
-import static co.com.proyectobase.screenplay.userinterface.PaginaUltimoPasoRegistro.*;
-
-import static co.com.proyectobase.screenplay.userinterface.PaginaDeRegistroDatosDispositivos.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.Hit;
-import net.serenitybdd.screenplay.actions.SelectFromOptions;
-import net.serenitybdd.screenplay.actions.type.Type;
-import net.serenitybdd.screenplay.matchers.statematchers.IsVisibleMatcher;
-import net.serenitybdd.screenplay.targets.Target;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import org.opencv.imgproc.CLAHE;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 
 import java.util.List;
 
