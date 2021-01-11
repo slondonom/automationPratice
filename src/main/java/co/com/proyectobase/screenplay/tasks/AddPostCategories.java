@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import java.util.List;
 
-import static co.com.proyectobase.screenplay.userinterface.PageCreatedCategoryWithPost.*;
+import static co.com.proyectobase.screenplay.userinterface.PageCreatCategory.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class AddPostCategories implements Task {

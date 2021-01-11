@@ -1,8 +1,7 @@
 package co.com.proyectobase.screenplay.tasks;
 
-import static co.com.proyectobase.screenplay.userinterface.PageCreatedCategoryWithPost.*;
+import static co.com.proyectobase.screenplay.userinterface.PageCreatCategory.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
-
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;

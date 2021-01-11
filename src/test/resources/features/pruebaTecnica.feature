@@ -10,5 +10,5 @@ Feature: The user login page and created blog category and Post associated with 
       |<postTitle>|
     Examples:
       |categoryName|nameVietnamese|nameRussian|nameArabic|nameFarsi|nameTurkish|nameFrench|nameSpanish|nameGerman|postTitle|text|
-      | test-php-2|vietnamese|Russian|Arabic | Farsi  | turkish | french | spanish | german  | tittle about test1 | test enable |
+      | test-php-2-1|vietnamese|Russian|Arabic | Farsi  | turkish | french | spanish | german  | tittle about test1 | test enable |
 
